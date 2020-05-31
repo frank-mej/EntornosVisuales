@@ -73,15 +73,15 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ciclo For Clase.Designer.vb">
+      <DependentUpon>Ciclo For Clase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ciclo For Clase.vb" />
     <Compile Include="FacturaClase.Designer.vb">
       <DependentUpon>FacturaClase.vb</DependentUpon>
     </Compile>
-    <Compile Include="FacturaClase.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FacturaClase.vb" />
+    <Compile Include="Form1.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
@@ -117,17 +117,16 @@
     <Compile Include="ValidacioErrorProvider.Designer.vb">
       <DependentUpon>ValidacioErrorProvider.vb</DependentUpon>
     </Compile>
-    <Compile Include="ValidacioErrorProvider.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ValidacioErrorProvider.vb" />
     <Compile Include="Validar.Designer.vb">
       <DependentUpon>Validar.vb</DependentUpon>
     </Compile>
-    <Compile Include="Validar.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Validar.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ciclo For Clase.resx">
+      <DependentUpon>Ciclo For Clase.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FacturaClase.resx">
       <DependentUpon>FacturaClase.vb</DependentUpon>
     </EmbeddedResource>
