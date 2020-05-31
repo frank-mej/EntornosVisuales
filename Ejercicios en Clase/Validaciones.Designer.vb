@@ -22,9 +22,64 @@ Partial Class Validaciones
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.txtNumero = New System.Windows.Forms.TextBox()
+        Me.btnValidar = New System.Windows.Forms.Button()
+        Me.btnLimpiar = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'txtNumero
+        '
+        Me.txtNumero.Location = New System.Drawing.Point(120, 75)
+        Me.txtNumero.Name = "txtNumero"
+        Me.txtNumero.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumero.TabIndex = 3
+        '
+        'btnValidar
+        '
+        Me.btnValidar.Location = New System.Drawing.Point(58, 142)
+        Me.btnValidar.Name = "btnValidar"
+        Me.btnValidar.Size = New System.Drawing.Size(75, 23)
+        Me.btnValidar.TabIndex = 2
+        Me.btnValidar.Text = "Validar"
+        Me.btnValidar.UseVisualStyleBackColor = True
+        '
+        'btnLimpiar
+        '
+        Me.btnLimpiar.Location = New System.Drawing.Point(145, 142)
+        Me.btnLimpiar.Name = "btnLimpiar"
+        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimpiar.TabIndex = 4
+        Me.btnLimpiar.Text = "Limpiar"
+        Me.btnLimpiar.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(226, 142)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Salir"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Validaciones
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(361, 270)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnLimpiar)
+        Me.Controls.Add(Me.txtNumero)
+        Me.Controls.Add(Me.btnValidar)
+        Me.Name = "Validaciones"
         Me.Text = "Validaciones"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+
+    Friend WithEvents txtNumero As TextBox
+    Friend WithEvents btnValidar As Button
+    Friend WithEvents btnLimpiar As Button
+    Friend WithEvents Button1 As Button
 End Class
