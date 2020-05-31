@@ -251,7 +251,8 @@ Partial Class FacturaClase
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(553, 532)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(476, 532)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnNuevo)
         Me.Controls.Add(Me.btnCalcular)
