@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22E3CA30-8009-4518-82B1-5D307A1BBA29}</ProjectGuid>
+    <ProjectGuid>{3B125687-6E6F-44CD-AFB3-8991E1A47329}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Ejercicios_Tareas.My.MyApplication</StartupObject>
-    <RootNamespace>Ejercicios_Tareas</RootNamespace>
-    <AssemblyName>Ejercicios Tareas</AssemblyName>
+    <StartupObject>Ejercicios_en_Clase.My.MyApplication</StartupObject>
+    <RootNamespace>Ejercicios_en_Clase</RootNamespace>
+    <AssemblyName>Ejercicios en Clase</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Ejercicios Tareas.xml</DocumentationFile>
+    <DocumentationFile>Ejercicios en Clase.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Ejercicios Tareas.xml</DocumentationFile>
+    <DocumentationFile>Ejercicios en Clase.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,12 +73,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FacturaSencilla.Designer.vb">
-      <DependentUpon>FacturaSencilla.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FacturaSencilla.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -90,7 +84,6 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,17 +95,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="OperacionesMasPotenciaRaiz.Designer.vb">
-      <DependentUpon>OperacionesMasPotenciaRaiz.vb</DependentUpon>
-    </Compile>
-    <Compile Include="OperacionesMasPotenciaRaiz.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FacturaSencilla.resx">
-      <DependentUpon>FacturaSencilla.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -121,9 +105,6 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OperacionesMasPotenciaRaiz.resx">
-      <DependentUpon>OperacionesMasPotenciaRaiz.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
