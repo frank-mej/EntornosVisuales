@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcumuladorContador.Designer.vb">
+      <DependentUpon>AcumuladorContador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcumuladorContador.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CicloForClase.Designer.vb">
       <DependentUpon>CicloForClase.vb</DependentUpon>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AcumuladorContador.resx">
+      <DependentUpon>AcumuladorContador.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CicloForClase.resx">
       <DependentUpon>CicloForClase.vb</DependentUpon>
     </EmbeddedResource>
