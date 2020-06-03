@@ -19,7 +19,7 @@
         Dim idDepartamento, municipios, cantEntrega As Integer
         Dim itemDepartamento As String
         idDepartamento = cmbDepartamento.SelectedIndex
-        itemDepartamento = cmbDepartamento.SelectedIndex.ToString
+        itemDepartamento = cmbDepartamento.SelectedItem.ToString
         municipios = Val(txtMunicipios.Text)
 
         Select Case idDepartamento
