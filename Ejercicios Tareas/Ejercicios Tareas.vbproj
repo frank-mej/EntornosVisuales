@@ -73,10 +73,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculadoraBasica.Designer.vb">
+      <DependentUpon>CalculadoraBasica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalculadoraBasica.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CicloFor.Designer.vb">
       <DependentUpon>CicloFor.vb</DependentUpon>
     </Compile>
     <Compile Include="CicloFor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasificarNumeros.Designer.vb">
+      <DependentUpon>ClasificarNumeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClasificarNumeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpresaAlmacenes.Designer.vb">
+      <DependentUpon>EmpresaAlmacenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaAlmacenes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FacturaSencilla.Designer.vb">
@@ -90,6 +108,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulaCuadratica.Designer.vb">
+      <DependentUpon>FormulaCuadratica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormulaCuadratica.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Libreria.Designer.vb">
@@ -108,6 +132,12 @@
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuGuia.Designer.vb">
+      <DependentUpon>MenuGuia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuGuia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -132,16 +162,34 @@
     <Compile Include="OperacionesMasPotenciaRaiz.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SueldoSar.Designer.vb">
+      <DependentUpon>SueldoSar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SueldoSar.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CalculadoraBasica.resx">
+      <DependentUpon>CalculadoraBasica.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CicloFor.resx">
       <DependentUpon>CicloFor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClasificarNumeros.resx">
+      <DependentUpon>ClasificarNumeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpresaAlmacenes.resx">
+      <DependentUpon>EmpresaAlmacenes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FacturaSencilla.resx">
       <DependentUpon>FacturaSencilla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaCuadratica.resx">
+      <DependentUpon>FormulaCuadratica.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Libreria.resx">
       <DependentUpon>Libreria.vb</DependentUpon>
@@ -152,6 +200,9 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuGuia.resx">
+      <DependentUpon>MenuGuia.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -160,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OperacionesMasPotenciaRaiz.resx">
       <DependentUpon>OperacionesMasPotenciaRaiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SueldoSar.resx">
+      <DependentUpon>SueldoSar.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
