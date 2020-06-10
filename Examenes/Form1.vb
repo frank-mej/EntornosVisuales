@@ -21,6 +21,12 @@ Public Class Form1
             End If
         End If
 
+        If cmbDepartamentos.Text = "Choluteca" Then
+            If chkNegativo.Checked = True Then
+                txtReporte.Text = "Choluteca - Negativo"
+            End If
+        End If
+
         If cmbDepartamentos.Text = "Atlantida" Then
             If chkNegativo.Checked = True Then
                 txtReporte.Text = "Atlantida - Negativo"
