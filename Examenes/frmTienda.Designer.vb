@@ -475,4 +475,8 @@ Partial Class frmTienda
             Me.Close()
         End If
     End Sub
+
+    Private Sub txtCodigo_TextChanged(sender As Object, e As EventArgs) Handles txtCodigo.TextChanged
+
+    End Sub
 End Class
